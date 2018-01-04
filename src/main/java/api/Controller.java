@@ -20,6 +20,6 @@ public class Controller {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String get() {
-        return "Hello API!";
+ 		return Response.ok("Hello Api!").build();
     }
 }
